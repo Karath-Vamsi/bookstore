@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
+    background-color: #242c44;
 }
 
 .home {
@@ -32,7 +33,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: #915d30;
+    background-color: lightblue;  
 }
 
 .logo-container {
@@ -57,14 +58,15 @@
 }
 
 .nav-link {
-    color: #fff;
+    color: black;
     transition-duration: 300ms;
     text-decoration: none;
     margin: 0 15px;
 }
 
 .nav-link:hover {
-    color: #ff6347;
+    color: white;
+
     text-underline-offset: 7px;
     text-decoration: underline;
 }
@@ -124,14 +126,13 @@
 
 .island {
     display: flex;
-
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 30px 30px;
     /* width: 40%; */
-    background: #b04646;
+    background: lightblue;
     border-radius: 30px;
 }
 
@@ -218,7 +219,7 @@
     width: 80%; /* Adjust width as needed */
     max-width: 600px; /* Optional: maximum width */
     padding: 20px; /* Optional: padding inside the div */
-    background-color: #240638; /* Background color */
+    background-color: lightblue; /* Background color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for effect */
     text-align: center;
     border-radius: 8px; /* Optional: rounded corners */
